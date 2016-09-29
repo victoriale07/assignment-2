@@ -1,0 +1,89 @@
+ assignment_2.pyui
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {480, 320}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "B0D8CE08-0060-4CC3-820F-63A031CBAA41",
+          "name" : "calculate_button",
+          "action" : "calculate_button_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate"
+        },
+        "frame" : "{{192, 193}, {80, 36}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "seconds_textbox",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "B6EA9DEA-20AC-48EC-A48D-34A25A20CB4A"
+        },
+        "frame" : "{{127, 115}, {200, 36}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "An object is dropped 100m from a cliff. Enter the number of second after the object has been dropped to determine the height of the object above the ground.",
+          "font_name" : "<System>",
+          "name" : "intruction_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "D53F6B60-93C4-455C-8D20-DAD964BD608E"
+        },
+        "frame" : "{{6, 6}, {468, 80}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "The height of the object above the ground is:",
+          "font_name" : "<System>",
+          "name" : "height_answer_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "7BD4F6BA-29D9-4BEE-8569-D0B8CB597422"
+        },
+        "frame" : "{{6, 255}, {468, 40}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
